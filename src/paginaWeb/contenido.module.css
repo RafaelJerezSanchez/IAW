@@ -1,0 +1,32 @@
+main{
+    background-color:greenyellow;
+    height:500px;
+    width:100%;
+    display:flex;
+    flex:row nowrap;
+}
+
+main section{
+    width:80%;
+    background-color:antiquewhite;
+    
+}
+main section div{
+    padding:20px;
+    /* width:300px; */
+}
+
+main aside{
+    width:20%;
+    background-color:yellowgreen;
+}
+
+@media (max-width:800px){
+    aside{
+        display:none;
+    }
+    main section{
+        width:100%;
+    }
+
+  }
